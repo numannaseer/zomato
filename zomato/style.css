@@ -11,7 +11,7 @@
 
 body {
   font-family:Okra, Helvetica, sans-serif !important;
-  background-color: rgb(255, 255, 255)!important;
+  background-color: rgb(254, 255, 246)!important;
   overflow-x: hidden;
   transition: 0.5s;
   text-decoration:none !important;
@@ -89,10 +89,7 @@ section {
 }
 
 .button__primary {
-  background-image: linear-gradient(to right,
-      #ff512f 0%,
-      #dd2476 51%,
-      #ff512f 100%);
+  background-image: linear-gradient(to right, #ff512f 0%, #ff7b23 51%, #ff512f 100%);
 }
 
 .button__primary {
@@ -145,7 +142,7 @@ section {
 
 .hero__text {
   font-size: 1.875rem;
-  line-height: 3.25rem;
+  line-height: 2.25rem;
   color: #1d3557;
   font-weight: 900;
 }
@@ -164,10 +161,7 @@ section {
 }
 
 .video__footage::before {
-  background-image: linear-gradient(to right,
-      #ff512f 0%,
-      #dd2476 51%,
-      #ff512f 100%);
+  background-image: linear-gradient(to right, #ff512f 0%, #ff7b23 51%, #ff512f 100%);
   content: "";
   top: 0;
   left: 0;
@@ -237,7 +231,7 @@ section {
   color: #fff;
   padding: 0.3rem;
   border-radius: 6px;
-  background: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+  background-image: linear-gradient(to right, #ff512f 0%, #ff7b23 51%, #ff512f 100%);
 }
 
 .restaurant__list__text {
@@ -312,10 +306,7 @@ foooter {
   align-items: center;
   justify-content: center;
   border-radius: 1rem 1rem 0 0;
-  background-image: linear-gradient(to right,
-      #ff512f 0%,
-      #dd2476 51%,
-      #ff512f 100%);
+  background-image: linear-gradient(to right, #ff512f 0%, #ff7417 51%, #ff512f 100%);
 }
 
 foooter>img {
@@ -408,9 +399,9 @@ foooter>ul>li {
     transform: skewY(+0deg);
 
     background-image: linear-gradient(to right,
-        #ff512f 0%,
-        #dd2476 51%,
-        #ff512f 100%);
+        #14b42f 0%,
+        #6cca7c 51%,
+        #00ac1d 100%);
     z-index: -3;
   }
 
@@ -506,7 +497,7 @@ foooter>ul>li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right, #ff512f 0%, #dd2476 51%, #ff512f 100%);
+    background-image: linear-gradient(to right, #ff512f 0%, #ff6f10 51%, #ff512f 100%);
   }
 }
 
